@@ -423,7 +423,7 @@ function html2canvas( element ) {
 							fontWeight: 'bold'
 						};
 
-						drawText( properties, x + ( width / 2 ), y, '✔' );
+						drawText( properties, x + ( width / 2 ), y, 'X' );
 
 						context.textAlign = currentTextAlign;
 
