@@ -64,6 +64,7 @@ class HTMLTexture extends CanvasTexture {
 
 		this.anisotropy = 16;
 		this.encoding = sRGBEncoding;
+		this.colorSpace = THREE.SRGBColorSpace;
 		this.minFilter = LinearFilter;
 		this.magFilter = LinearFilter;
 
